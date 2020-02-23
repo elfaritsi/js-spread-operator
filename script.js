@@ -29,7 +29,7 @@ const mhs = ['Udin', 'Anto', 'Jamal'];
 console.log(mhs);
 
 /*
-Jika kita meng-copy dengan cara berikut, maka jika kita ganti index ke 0 dengan 
+Jika kita meng-copy dengan cara diatas, maka jika kita ganti index ke 0 dengan 
 nama lain maka array mhs yg kita copy tadi akan terganti juga index ke 0 nya,*/ 
 let mhs1 = mhs;
 mhs1[0] = 'Dobleh';
